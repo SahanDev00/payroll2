@@ -8,10 +8,10 @@ const Hero = () => {
         <div className='w-[60%] h-[500px] flex mx-auto items-center'>
             <div className='w-full h-full flex items-center'>
                 <div>
-                    <h2 className='text-2xl text-primary font-semibold'>PAYROLL • HR</h2>
-                    <h1 className='text-6xl leading-tight text-black/60'><span className='text-blue font-bold'>RELIABLE</span> and <br/><span className='text-blue font-bold'>UNCOMPLICATED</span></h1>
+                    <h2 className='text-2xl text-primary font-semibold mb-1'>PAYROLL • HR</h2>
+                    <h1 className='text-5xl text-black/60'><span className='text-blue font-bold'>MANAGE YOUR EMPLOYEES EASILY </span> WITH OUR <span className='text-blue font-bold'>EMPLOYEE BROWSER.</span></h1>
                     <p className='text-wrap text-lg mt-2 text-black/70'>Create your employees under your employee structure.</p>
-                    <p className='text-wrap text-lg mt-2 text-black/70'>Complete management over your HR profile needs</p>
+                    <p className='text-wrap text-lg text-black/70'>Complete management over your HR profile needs</p>
                     <div className='flex mt-5 gap-4'>
                         <Link to='/contact-us'>
                             <button className='py-2 px-3 bg-primary/70 rounded-full font-semibold text-white hover:bg-primary duration-200'>Book a Demo</button>
