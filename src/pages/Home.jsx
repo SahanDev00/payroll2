@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Features from '../components/Features'
 import FeaturesCards from '../components/FeaturesCards'
 import Tabs from '../components/Tabs'
@@ -9,6 +9,11 @@ import Hero from '../components/Hero'
 import Cards2 from '../components/Cards2'
 
 const Home = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Hero/>

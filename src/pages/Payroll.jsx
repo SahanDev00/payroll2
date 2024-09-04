@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import HRM from '../components/Payroll/HRM'
 import picture from '../images/empower.PNG'
 import TimeAttendance from '../components/Payroll/TimeAttendance'
@@ -10,6 +10,11 @@ import { Link } from 'react-scroll'
 import { IoIosArrowRoundUp } from "react-icons/io";
 
 const Payroll = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div id='payroll' className='w-full mt-24'>
       <div className='w-full h-[300px] bg-blue clip-curve-reverse flex flex-col items-center justify-center'>

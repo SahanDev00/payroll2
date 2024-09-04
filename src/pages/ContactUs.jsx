@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const ContactUs = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   
   return (
     <div className='mb-10 mt-20 w-full'>

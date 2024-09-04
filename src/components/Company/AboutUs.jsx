@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import pic1 from '../../images/user.png'
 import GetStarted from '../GetStarted'
 
 const AboutUs = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className=' mt-20 w-full'>
       <div className='w-full h-full mx-auto'>
